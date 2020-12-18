@@ -1,2 +1,2 @@
-Mask Detection using Transfer Learning and Opencv
+Mask Detection using DL and Opencv  
 Custom Dataset used from Kaggle
