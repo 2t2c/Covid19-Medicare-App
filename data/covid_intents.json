@@ -1,0 +1,83 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hi there, how can I help ?"],
+         "context": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Goodbye!.", "Goodbye!.", "Goodbye!."],
+         "context": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I'm everlasting", "I'm not a human"],
+         "context": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["I'm Covid Medicare Bot", "Hello, Covid Medicare Bot here"],
+         "context": ""
+        },
+        {"tag": "covid symptoms",
+         "patterns": ["do I have covid ?", "what are the symptoms of covid", "symptoms"],
+         "responses": ["Most common symptoms:\nfever\ndry cough\ntiredness\nLess common symptoms:\naches and pains\nsore throat\ndiarrhoea\nconjunctivitis\nheadache\nloss of taste or smell\na rash on skin, or discolouration of fingers or toes"],
+         "context": ""
+        },
+       {"tag": "covid precautions",
+         "patterns": ["what are the basic precautions ?", "precautions one should take", "precautions"],
+         "responses": ["To prevent the spread of COVID-19:\nClean your hands often. Use soap and water, or an alcohol-based hand rub.\nMaintain a safe distance from anyone who is coughing or sneezing.\nWear a mask when physical distancing is not possible.\nDon’t touch your eyes, nose or mouth.\nCover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.\nStay home if you feel unwell.\nIf you have a fever, cough and difficulty breathing, seek medical attention."],
+         "context": ""
+       },
+       {"tag": "covid food",
+       "patterns": ["what food should I avoid", "food to avoid during covid", "food avoid"],
+       "responses": ["When cooking and preparing food, limit the amount of salt and high-sodium condiments (e.g. soy sauce and fish sauce).\n Limit your daily salt intake to less than 5 g (approximately 1 teaspoon), and use iodized salt.\n Avoid foods (e.g. snacks) that are high in salt and sugar.\n Limit your intake of soft drinks or sodas and other drinks that are high in sugar (e.g. fruit juices, fruit juice concentrates and syrups, flavoured milks and yogurt drinks).\n Choose fresh fruits instead of sweet snacks such as cookies, cakes and chocolate."],
+       "context": ""
+       },
+       {"tag": "covid risks",
+         "patterns": ["how risky is covid", "dangerous covid", "how severe is covid", "risks of covid","risks"],
+         "responses": ["Although for most people COVID-19 causes only mild illness, it can make some people very ill. More rarely, the disease can be fatal. Older people, and those with pre- existing medical conditions (such as high blood pressure, heart problems or diabetes) appear to be more vulnerable."],
+         "context": ""
+       },
+      {"tag": "sanitation",
+         "patterns": ["is hand santizier effective?","how to sanitize hand?","how to wash hands?"],
+         "responses": ["The best way to prevent the spread of infections and decrease the risk of getting sick is by washing your hands with plain soap and water, advises the CDC. Washing hands often with soap and water for at least 20 seconds is essential, especially after going to the bathroom; before eating; and after coughing, sneezing, or blowing one’s nose. If soap and water are not available, CDC recommends consumers use an alcohol-based hand sanitizer that contains at least 60% alcohol. "],
+         "context": ""
+       },
+        {"tag": "mask protection",
+         "patterns": ["are masks effective ?","how effective are masks?","wearing masks in public"],
+         "responses": ["The FDA has authorized the emergency use of face masks, including cloth face coverings, that meet certain criteria for use as source control by the general public and health care personnel in accordance with CDC recommendations during the COVID-19 public health emergency. The FDA also regulates other medical devices, including personal protective equipment (PPE) such as surgical masks and N95 respirators. The CDC recommends that PPE should be reserved for use by health care workers, first responders, and other frontline workers whose jobs put them at much greater risk of acquiring COVID-19. "],
+         "context": ""
+       },
+        {"tag": "covid helpline",
+         "patterns": ["covid helpline number","helpline contact","helpline email"],
+         "responses": ["Helpline Number: +91-11-23978046\nToll Free: 1075\nHelpline Email ID: ncov2019@gov.in"],
+         "context": ""
+       },
+       {"tag": "might have covid",
+         "patterns": ["I think I might have COVID", "Do I have COVID?","i think i might have covid", "might have covid"],
+         "responses": ["Hi! Don't worry and follow these steps: \n1. Do a survey here:https://covid19survey.ford.com/india  \n2. Call on the helpline number +91-11-23978046\n3. Visit the nearest COVID hospital"],
+         "context": ""
+       },
+        {"tag": "vaccine status",
+         "patterns": ["can I get the vaccine", "vaccine status", "vaccine", "eligibility for vaccine", "covid vaccine"],
+         "responses": ["The COVID vaccine was launched on 16th January, 2021. The first group includes healthcare and frontline workers. The second group to receive COVID 19 vaccine will be persons over 50 years of age and persons under 50 years with comorbid conditions. You can check out more information here: https://www.mohfw.gov.in/covid_vaccination/vaccination/index.html#v-pills-prioritisation"],
+         "context": ""
+       },
+        {"tag": "statistics",
+         "patterns": ["covid statistics", "covid deaths", "current active numbers"],
+         "responses": ["All Statistics can be found here: https://www.worldometers.info/coronavirus/country/india/"],
+         "context": ""
+       },
+        {"tag": "travel rules for India",
+         "patterns": ["can I travel", "travel during covid"],
+         "responses": ["1. All passengers must submit a self-declaration form regarding their health, along with their Aarogya Setu app health data to certify themselves as being fit to fly\n2. After security screening is complete, you can proceed to the holding area.\n3. You must collect the face masks, face shield and sanitisers.\n4. Ensure that you maintain social distancing norms and proper sanitation during this stage of the journey as well.\nMore information can be found here: https://www.yatra.com/online/government-guidelines"],
+         "context": ""
+       },
+        {"tag": "covid news",
+         "patterns": ["latest covid news", "covid news"],
+         "responses": ["Covid news is available here: https://www.google.com/search?q=covid+news+in+india&rlz=1C1CHBF_enIN924IN924&oq=covid+news+in+india&aqs=chrome..69i57j35i39l2j0i20i263i433j0i20i263j69i60l3.4677j0j4&sourceid=chrome&ie=UTF-8"],
+         "context": ""
+       }
+]
+}
